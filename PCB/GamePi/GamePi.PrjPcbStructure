@@ -1,3 +1,4 @@
-Record=TopLevelDocument|FileName=Direction Pad(1).SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Direction Pad(1).SchDoc|FileName=GamePi_SCHEMATIC.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Direction Pad(1).SchDoc|FileName=Over Discharge Protection_SCHEMATIC.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=Buttons_SCHEMATIC.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=Direction Pad_SCHEMATIC.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=GamePi_SCHEMATIC.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=Over Discharge Protection_SCHEMATIC.SchDoc|SheetNumber=2
