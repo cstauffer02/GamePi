@@ -1,4 +1,5 @@
-Record=TopLevelDocument|FileName=Buttons_SCHEMATIC.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=Direction Pad_SCHEMATIC.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=GamePi_SCHEMATIC.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Buttons_SCHEMATIC.SchDoc|FileName=Over Discharge Protection_SCHEMATIC.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=GamePi_SCHEMATIC.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=GamePi_SCHEMATIC.SchDoc|Designator=Audio_SCHEMATIC|SchDesignator=Audio_SCHEMATIC|FileName=Audio_SCHEMATIC.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Audio_SCHEMATIC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=GamePi_SCHEMATIC.SchDoc|Designator=Buttons|SchDesignator=Buttons|FileName=Buttons_SCHEMATIC.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Buttons_SCHEMATIC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=GamePi_SCHEMATIC.SchDoc|Designator=Direction Pad|SchDesignator=Direction Pad|FileName=Direction Pad_SCHEMATIC.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Direction Pad_SCHEMATIC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=GamePi_SCHEMATIC.SchDoc|Designator=Over Discharge Protection_SCHEMATIC|SchDesignator=Over Discharge Protection_SCHEMATIC|FileName=Over Discharge Protection_SCHEMATIC.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Over Discharge Protection_SCHEMATIC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
