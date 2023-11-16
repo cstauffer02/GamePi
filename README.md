@@ -9,7 +9,7 @@ There are two main goals of the GamePi project:
 
 1. Design a portable handheld retro gaming console that can support targeted retro console emulators with full interface capabilities.
     - NES, Sega Genesis, SNES, Gameboy, Gameboy Colour, Gameboy Advance
-    - Sufficient buttons (Direction Pad, A, B, X, Y, R/L bumbers, Start, Select) and audio
+    - Sufficient buttons (Direction Pad, A, B, X, Y, R/L bumpers, Start, Select) and audio
 2. Use as many already-owned components as possible
     - Keep cost to a minimum
     - Current revision is to serve as a prototype to be improved upon over time
