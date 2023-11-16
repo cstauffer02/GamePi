@@ -16,13 +16,13 @@ There are two main goals of the GamePi project:
 
 ## Design and Features
 Feature Keynotes:
-    - 3.5 inch LCD screen
-    - Display settings interface
-    - Portable
-    - Mono Audio with volume control
-    - Raspberry Pi Zero W removability
-    - Removeable Battery access
-    - Raspberry Pi Zero W port access
+- 3.5 inch LCD screen
+- Display settings interface
+- Portable
+- Mono Audio with volume control
+- Raspberry Pi Zero W removability
+- Removeable Battery access
+- Raspberry Pi Zero W port access
 
 <p align="center">
   <img src="images/GamePi_Top_IO.jpg" width="48%" />
