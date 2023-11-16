@@ -1,5 +1,6 @@
 # GamePi
 The GamePi is a handheld retro gaming console computed by a Raspberry Pi Zero W.
+
 ![](images/GamePi.jpg)
 
 ## Goals
@@ -7,21 +8,21 @@ The GamePi is a handheld retro gaming console computed by a Raspberry Pi Zero W.
 There are two main goals of the GamePi project:
 
 1. Design a portable handheld retro gaming console that can support targeted retro console emulators with full interface capabilities.
-  - NES, Sega Genesis, SNES, Gameboy, Gameboy Colour, Gameboy Advance
-  - Sufficient buttons (Direction Pad, A, B, X, Y, R/L bumbers, Start, Select) and audio
+    - NES, Sega Genesis, SNES, Gameboy, Gameboy Colour, Gameboy Advance
+    - Sufficient buttons (Direction Pad, A, B, X, Y, R/L bumbers, Start, Select) and audio
 2. Use as many already-owned components as possible
-  - Keep cost to a minimum
-  - Current revision is to serve as a prototype to be improved upon over time
+    - Keep cost to a minimum
+    - Current revision is to serve as a prototype to be improved upon over time
 
 ## Design and Features
 Feature Keynotes:
-  - 3.5 inch LCD screen
-  - Display settings interface
-  - Portable
-  - Mono Audio with volume control
-  - Raspberry Pi Zero W removability
-  - Removeable Battery access
-  - Raspberry Pi Zero W port access
+    - 3.5 inch LCD screen
+    - Display settings interface
+    - Portable
+    - Mono Audio with volume control
+    - Raspberry Pi Zero W removability
+    - Removeable Battery access
+    - Raspberry Pi Zero W port access
 
 <p align="center">
   <img src="images/GamePi_Top_IO.jpg" width="48%" />
