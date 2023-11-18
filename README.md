@@ -1,7 +1,7 @@
 # GamePi
 The GamePi is a handheld retro gaming console computed by a Raspberry Pi Zero W.
 
-![](images/GamePi.jpg)
+![](media/GamePi.jpg)
 
 ## Goals
 
@@ -25,8 +25,8 @@ Feature Keynotes:
 - Raspberry Pi Zero W port access
 
 <p align="center">
-  <img src="images/GamePi_Top_IO.jpg" width="48%" />
-  <img src="images/GamePi_Removable_Covers.jpg" width="48%" />
+  <img src="media/GamePi_Top_IO.jpg" width="48%" />
+  <img src="media/GamePi_Removable_Covers.jpg" width="48%" />
 </p>
 
 The console incorporates a PCB designed using Altium and an enclosure and buttons designed using Fusion 360. To display the retro video games, the GamePi uses a 3.5 inch LCD display, accompanied with three buttons to adjust display settings. While the device achieves its portability by incorporating an on board AA battery design, it can also be powered externally via a micro USB connection. The GamePi provides mono audio with a slot in the enclosure for a volume adjustment wheel. The enclosure also has two removable covers at the rear of the device: one to provide access to the AA batteries, and the other to allow access to the Raspberry Pi Zero W. Since the Raspberry Pi Zero W connects to the PCB by plugging into a female header rail, the Pi is removable should the user wish to use the hobby computer for another purpose. The Raspberry Pi cover also has port access slots for interface convenience, allowing access to the supply micro USB, device USB, and mini-HDMI ports.
