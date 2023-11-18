@@ -1,0 +1,45 @@
+# Compiled source #
+*.drc
+*.html
+*.apr
+*.DRR
+*.EXTREP
+*.GBL
+*.GBO
+*.GBS
+*.GKO
+*.GM1
+*.GM2
+*.GM3
+*.GM4
+*.GM5
+*.GM6
+*.GM7
+*.GM8
+*.GM9
+*.GM10
+*.GM11
+*.GM12
+*.GM13
+*.GM14
+*.GM15
+*.GTL
+*.GTO
+*.GTS
+*.LDP
+*.REP
+*.RUL
+*.TXT
+*.APR_LIB
+*.Txt
+*.SchDocPreview
+*.Cam
+*.stl
+
+# Packages #
+*.zip
+*.Zip
+
+# Logs #
+*.LOG
+*.Log
