@@ -1,34 +1,94 @@
-# GamePi
-The GamePi is a handheld retro gaming console computed by a Raspberry Pi Zero W.
+# 🎮 GamePi
 
-![](media/GamePi.jpg)
+A portable handheld retro gaming console powered by a **Raspberry Pi Zero W**. The **GamePi** is designed as a low‑cost, DIY‑friendly device capable of running classic game console emulators with full physical controls, a compact display, and portable power.
 
-## Goals
+---
 
-There are two main goals of the GamePi project:
+## 🎯 Project Goals
 
-1. Design a portable handheld retro gaming console that can support targeted retro console emulators with full interface capabilities.
-    - NES, Sega Genesis, SNES, Gameboy, Gameboy Colour, Gameboy Advance
-    - Sufficient buttons (Direction Pad, A, B, X, Y, R/L bumpers, Start, Select) and audio
-2. Use as many already-owned components as possible
-    - Keep cost to a minimum
-    - Current revision is to serve as a prototype to be improved upon over time
+1. **Design a portable handheld retro gaming console** that supports targeted retro console emulators with a complete control interface:
+   - NES
+   - Sega Genesis
+   - SNES
+   - Game Boy, Game Boy Color, Game Boy Advance
+2. **Include all essential controls:**
+   - Directional pad (D‑Pad)
+   - A, B, X, Y buttons
+   - R/L bumpers
+   - Start & Select buttons
+   - Mono audio with volume control
+3. **Reuse already‑owned components from college program** where possible to keep costs low.
+4. Keep the design **affordable** and **iterative** — the current revision is a working prototype, to be refined over time.
 
-## Design and Features
-Feature Keynotes:
-- 3.5 inch LCD screen
-- Display settings interface
-- Portable
-- Mono Audio with volume control
-- Raspberry Pi Zero W removability
-- Removeable Battery access
-- Raspberry Pi Zero W port access
+---
 
-<p align="center">
-  <img src="media/GamePi_Top_IO.jpg" width="48%" />
-  <img src="media/GamePi_Removable_Covers.jpg" width="48%" />
-</p>
+## 🛠 Design & Features
 
-The console incorporates a PCB designed using Altium and an enclosure and buttons designed using Fusion 360. To display the retro video games, the GamePi uses a 3.5 inch LCD display, accompanied with three buttons to adjust display settings. While the device achieves its portability by incorporating an on board AA battery design, it can also be powered externally via a micro USB connection. The GamePi provides mono audio with a slot in the enclosure for a volume adjustment wheel. The enclosure also has two removable covers at the rear of the device: one to provide access to the AA batteries, and the other to allow access to the Raspberry Pi Zero W. Since the Raspberry Pi Zero W connects to the PCB by plugging into a female header rail, the Pi is removable should the user wish to use the hobby computer for another purpose. The Raspberry Pi cover also has port access slots for interface convenience, allowing access to the supply micro USB, device USB, and mini-HDMI ports.
+- **3.5‑inch LCD screen** for retro game visuals
+- **Display settings interface** via 3 front‑mounted buttons
+- **Mono audio** output with adjustable volume wheel
+- **Portable** — powered by onboard AA batteries or external micro‑USB
+- **Removable Raspberry Pi Zero W**
+- **Accessible ports** — micro‑USB (power), USB (devices), and mini‑HDMI
+- **Removable battery compartment cover**
+- **Removable Pi cover** with convenient port cutouts
 
-**Note:** _Some unintuitive design choices may be noticed in the PCB files. For example, the use of both axial and SMD resistors. The reason for the inconsistencies or seemingly-odd design choices stems from goal #2_ "Use as many already-owned components as possible." _Some SMD components were not owned at the time of development, so axial, radial, or other components were used for the sake of availability._
+---
+
+## 🧩 Hardware Overview
+
+- **Main Processor:** Raspberry Pi Zero W
+- **PCB:** Custom‑designed in Altium
+- **Enclosure & Buttons:** Designed in Fusion 360
+- **Display:** 3.5" LCD
+- **Audio:** Mono speaker with volume control
+- **Power:**
+  - AA battery pack (portable mode)
+  - External micro‑USB (bench power mode)
+
+---
+
+## 🖼 Enclosure & Assembly
+
+The enclosure is designed for both ease of access and durability:
+- Rear **battery cover** allows quick battery changes
+- Rear **Raspberry Pi cover** enables Pi removal for other projects
+- Pi connects to PCB via **female header rail** for tool‑free removal
+- Port access slots in the Pi cover for power, USB devices, and HDMI
+
+---
+
+## 📜 Design Philosophy
+
+This prototype intentionally uses **mixed component types** (axial + SMD resistors, etc.) for the sake of **component availability**:
+> _Some unintuitive design choices may be noticed in the PCB files. For example, the use of both axial and SMD resistors. This stems from goal #3 — “Reuse already‑owned components from college program.” Some SMD components were not available during development, so axial/radial parts were substituted._
+
+---
+
+## 📂 Repository Structure
+
+    GamePi/
+    ├── pcb/                # Altium PCB design files
+    ├── enclosure/          # Fusion 360 CAD models for case & buttons
+    ├── firmware/           # Raspberry Pi configuration files / scripts
+    ├── docs/               # Images, diagrams, and documentation
+    ├── README.md
+    └── LICENSE
+
+---
+
+## 🚀 Future Improvements
+
+- Refine PCB layout for cleaner component selection
+- Improve enclosure ergonomics
+- Integrate rechargeable lithium battery + charging circuit
+- Add stereo audio support
+- Explore Pi 4 CM for improved performance
+
+---
+
+## 👤 Author
+
+**Cameron Stauffer**  
+Electrical Project Engineer | Hardware & Embedded Systems Enthusiast  
+[LinkedIn](www.linkedin.com/in/cameronstauffer)
