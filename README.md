@@ -2,6 +2,10 @@
 
 A portable handheld retro gaming console powered by a **Raspberry Pi Zero W**. The **GamePi** is designed as a low‑cost, DIY‑friendly device capable of running classic game console emulators with full physical controls, a compact display, and portable power.
 
+![GamePi](media/GamePi.jpg)
+
+🎥 [Watch the GamePi demo video](meda/GamePi%20Demo.mp4)
+
 ---
 
 ## 🎯 Project Goals
@@ -38,7 +42,7 @@ A portable handheld retro gaming console powered by a **Raspberry Pi Zero W**. T
 ## 🧩 Hardware Overview
 
 - **Main Processor:** Raspberry Pi Zero W
-- **PCB:** Custom‑designed in Altium
+- **PCB:** Designed in Altium
 - **Enclosure & Buttons:** Designed in Fusion 360
 - **Display:** 3.5" LCD
 - **Audio:** Mono speaker with volume control
@@ -68,13 +72,10 @@ This prototype intentionally uses **mixed component types** (axial + SMD resisto
 ## 📂 Repository Structure
 
     GamePi/
-    ├── pcb/                # Altium PCB design files
-    ├── enclosure/          # Fusion 360 CAD models for case & buttons
-    ├── firmware/           # Raspberry Pi configuration files / scripts
-    ├── docs/               # Images, diagrams, and documentation
-    ├── README.md
-    └── LICENSE
-
+    ├── Enclosure/          # Fusion 360 CAD models for case & buttons
+    ├── PCB/                # Altium PCB design files
+    ├── media/              # Images and demonstration video
+    └── README.md 
 ---
 
 ## 🚀 Future Improvements
@@ -82,6 +83,7 @@ This prototype intentionally uses **mixed component types** (axial + SMD resisto
 - Refine PCB layout for cleaner component selection
 - Improve enclosure ergonomics
 - Integrate rechargeable lithium battery + charging circuit
+- Implement conductive silicon button pads for quieter buttons
 - Add stereo audio support
 - Explore Pi 4 CM for improved performance
 
