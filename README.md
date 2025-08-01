@@ -4,7 +4,7 @@ A portable handheld retro gaming console powered by a **Raspberry Pi Zero W**. T
 
 ![GamePi](media/GamePi.jpg)
 
-🎥 [Watch the GamePi demo video](media/GamePi%20Demo.mp4)
+🎥 [Watch the GamePi demo video](https://vimeo.com/1106315738?fl=pl&fe=sh)
 
 ---
 
